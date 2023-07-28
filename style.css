@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=DM+Sans:wght@100;200;300;400;500;600;700;800&family=Sono:wght@400;600;700&display=swap");
+
+.row {
+  margin: 0 !important;
+}
+
+.nav-link {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4)) !important;
+
+  /* Buttons / Small */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}
+
+.navbar-brand {
+  color: var(--colors-heading, #1e0e62) !important;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.293px;
+}
+
+.btn-login {
+  color: var(--action-primary, #25dac5);
+
+  /* Buttons / Small */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  border: none;
+  background-color: #fff;
+}
+
+.btn-signup {
+  width: 100px;
+  height: 40px;
+  flex-shrink: 0;
+
+  border-radius: 100px;
+  background: var(--action-primary, #25dac5);
+  border: none;
+  color: #fff;
+}
+
+.header-div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.created-para {
+  margin-top: 32px;
+}
+
+.btn-create {
+  width: 268px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--action-third, #e93a7d);
+  border: none;
+}
+
+.hero-footer1,
+.hero-footer2,
+.hero-footer3 {
+  margin-top: 100px;
+  text-align: center;
+}
