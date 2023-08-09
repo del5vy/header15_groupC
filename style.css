@@ -60,12 +60,13 @@
 }
 
 .btn-create {
-  width: 268px;
+  width: 180px;
   height: 60px;
   flex-shrink: 0;
   border-radius: 100px;
   background: var(--action-third, #e93a7d);
   border: none;
+  color: #fff;
 }
 
 .hero-footer1,
@@ -73,6 +74,9 @@
 .hero-footer3 {
   margin-top: 100px;
   text-align: center;
+}
+.card {
+  border: none !important;
 }
 
 .sample-div {
@@ -119,17 +123,179 @@
     font-weight: 700;
     font-family: "DM Sans";
   }
-  .card-img {
-    height: auto !important;
+
+  @-webkit-keyframes fadeBounce {
+    0% {
+      opacity: 0;
+      transform: translateY(-200%);
+    }
+    40% {
+      transform: translateY(0);
+    }
+    55% {
+      transform: translateY(-6px);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    85% {
+      transform: translateY(-3px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeBounce {
+    0% {
+      opacity: 0;
+      transform: translateY(-200%);
+    }
+    40% {
+      transform: translateY(0);
+    }
+    55% {
+      transform: translateY(-6px);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    85% {
+      transform: translateY(-3px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* .trusted-header {
+    display: block !important;
+    height: 40px;
+    margin-bottom: 30px !important;
+  } */
+  .image-card {
+    /* height: 250px !important; */
+    /* background-size: cover !important; */
+    height: auto;
+    margin-top: 30px !important;
   }
 
   .card-img {
-    display: none;
+    /* height: auto !important; */
+    background-size: cover !important;
+    height: 250px;
+  }
+
+  .trusted-header {
+    /* display: block; */
+    /* height: 30px; */
+    margin-bottom: 40px !important;
+    line-height: 80px !important;
   }
 
   .sample-div {
     margin: auto;
-    padding: 0;
+    margin-top: 15px !important;
+    padding-top: 5px;
     width: 80%;
+    height: 180px;
   }
+
+  .title-sample {
+    margin: 0 auto;
+    margin-top: 12px !important;
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  .text-important {
+    line-height: 18px;
+    margin-top: 5px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    word-break: keep-all !important;
+    /* word-break: unset !important; */
+    /* word-break: keep-all !important; */
+  }
+
+  .logodiv {
+    opacity: 0;
+    height: 200px !important;
+    -webkit-animation-name: fadeBounce;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: fadeBounce;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .pepsi-div {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .walmart-div {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  .azendoo-div {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+  .cnn-div {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  .philips-div {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+  }
+  .pizza-div {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+  }
+  .beanstalk-div {
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+  }
+}
+
+.lastsection {
+  margin-top: 60px;
+}
+
+.logodiv {
+  height: 90%;
+  background: #ebeaed;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+  /* display: block ; */
+}
+
+.logoimg {
+  width: 50% !important;
+
+  margin: auto;
+  margin-top: 10px;
+}
+
+.pepsi-img {
+  margin-top: 40px;
+}
+
+.walmart-img,
+.azendoo-img,
+.cnn-img,
+.philips-img,
+.bean-img {
+  margin-top: 50px;
+}
+
+.philips-img {
+  margin-top: 60px;
 }
