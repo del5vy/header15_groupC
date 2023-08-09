@@ -230,37 +230,37 @@
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
     animation-name: fadeBounce;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
   }
 
   .pepsi-div {
     -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-  }
-  .walmart-div {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-  }
-  .azendoo-div {
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-  }
-  .cnn-div {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-  }
-  .philips-div {
-    -webkit-animation-delay: 2.5s;
     animation-delay: 2.5s;
   }
-  .pizza-div {
+  .walmart-div {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
   }
-  .beanstalk-div {
+  .azendoo-div {
     -webkit-animation-delay: 3.5s;
     animation-delay: 3.5s;
+  }
+  .cnn-div {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+  }
+  .philips-div {
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+  }
+  .pizza-div {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  .beanstalk-div {
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
   }
 }
 
